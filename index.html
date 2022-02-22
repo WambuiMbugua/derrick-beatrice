@@ -1,26 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8">
-    <title>Fork Me! FCC: Test Suite Template</title>
-    <link rel="stylesheet" href="css/style.css">
+    <meta charset="UTF-8" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="css/style.css" />
   </head>
 
   <body>
+    <!-- Nav Bar -->
+    <nav id="navbar">
+      <div id="navbar">
+        <a href="#about">ABOUT</a>
+        <a href="#work">WORK</a>
+        <a href="#Contact">CONTACT</a>
+      </div>
+    </nav>
+    <!-- welcome section -->
+    <section id="welcome-section">
+      <h1 id="welcome-heading">Hey, We are B & D</h1>
+
+      <p id="welcome-text">We are website developers</p>
+    </section>
+
+    <!-- project section -->
+    <section id="projects">
+      <h2 title="B&D projects" class="project-tile" id="work">
+        Here are our Projects
+      </h2>
+
+      <div class="row">
+        <div class="column">
+          <img src="./images1/img1.jpeg" alt="Scissors" style="width: 100%" />
+          <a href="https://github.com/WambuiMbugua">Project 1</a>
+        </div>
+        <div class="column">
+          <img src="./images1/img2.jpeg" alt="Forest" style="width: 100%" />
+          <a href="https://github.com/maestrofly/personalPortfolio"
+            >Project 2</a
+          >
+        </div>
+        <div class="column">
+          <img src="./images1/img3.jpeg" alt="Mountains" style="width: 100%" />
+          <a href="https://github.com/WambuiMbugua/derrick-beatrice"
+            >Project 3</a
+          >
+        </div>
+      </div>
+    </section>
+
+    <!-- Profile Section -->
+    <section>
+      <a href="https://github.com/maestrofly" id="profile-link" target="_blank"
+        >Derrick's Github</a
+      >
+      <a
+        href="https://github.com/WambuiMbugua"
+        id="profile-link"
+        target="_blank"
+        >Beatrice's Github</a
+      >
+    </section>
+
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
-
-    <!--
-
-    Hello Camper!
-
-    For now, the test suite only works in Chrome!
-    Please read the README below in the JS Editor before beginning.
-    Feel free to delete this message once you have read it.
-    Good luck and Happy Coding!
-
-    - The freeCodeCamp Team
-
-    -->
-    <script  src="js/index.js"></script>
+    <script src="js/index.js"></script>
   </body>
 </html>
